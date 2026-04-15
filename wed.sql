@@ -103,4 +103,62 @@ SELECT COUNT(*) FROM Site;
 SELECT COUNT(*) FROM ( SELECT COUNT(*) FROM SITE );
 
 -- you can nest queries
+SELECT DISTINCT Species FROM Bird_nests;
+SELECT Code FROM Species
+    WHERE Code NOT IN (SELECT DISTINCT Species FROM Bird_nests);
 
+
+## NULL processing
+-- NULL is infectious
+-- In a table, NULL means NO DATA, the absence of a value
+-- In an expression, NULL means unknown
+SELECT COUNT(*) FROM Bird_nests WHERE ageMethod = 'float';
+SELECT COUNT(*) FROM Bird_nests WHERE ageMethod != 'float'; -- Different b/c it is a NULL value
+
+-- This won't work, but you will try it by accident anyway
+SELECT COUNT(*) FROM Bird_nests WHERE ageMethod = NULL;
+
+-- The only way to do it
+SELECT COUNT(*) FROM Bird_nests WHERE ageMethod IS NULL;
+SELECT COUNT(*) FROM Bird_nests WHERE ageMethod IS NOT NULL;
+-- so-called "tri-value" logic
+
+-- JOINS
+-- 90% of the time, we'll join tables based on a foreign key relationship
+SELECT * FROM Camp_assignment;
+SELECT * FROM Camp_assignment JOIN Personnel
+    ON Observer = Abbreviation
+    LIMIT 10;
+
+-- Join is a very general operation, can be applied to any tables, with any expression joining them
+-- fundamentally, joins always start from Cartesian product of tables
+-- CROSS JOIN = Cartesian Product
+SELECT * FROM Site CROSS JOIN Species;
+SELECT COUNT(*) FROM Site; -- ROWS 16
+SELECT COUNT(*) FROM Species; -- ROWS 99
+SELECT 99*16;
+
+-- *any* condition can be expression, we have complete freedom here
+
+-- But when there *is* a foreign key relationship, then
+-- what happens?
+-- The Table with the foreign key - The result is the same as the table with the foreign key, but augmented with additional columns
+SELECT * FROM Bird_nests BN JOIN Species S
+    ON BN.Species = S.Code
+    LIMIT 5;
+
+SELECT COUNT(*) FROM Bird_nests BN JOIN Species S
+    ON BN.Species = S.Code;
+
+
+-- Table Aliases
+-- Sometimes, if column names are ambiguous where they're coming from, 
+-- need to qualify them
+SELECT * FROM Bird_nests JOIN Species
+    ON Bird_nests.Species = Species.Code;
+
+-- same, using a table alias
+SELECT * FROM Bird_nests AS BN JOIN Species AS S
+    ON BN.Species = S.Code;
+
+-- even more compact, leave out the "AS"
