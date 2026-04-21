@@ -1,0 +1,14 @@
+-- Create table
+CREATE temp TABLE mytable(val REAL);
+
+-- Inserting rows
+INSERT INTO mytable VALUES (10), (20), (30), (NULL);
+
+-- Run value
+SELECT AVG(val) FROM mytable; 
+-- value returned is 20, NULL did not get counted, it was ignored
+-- The way it was calculated was by 
+SELECT 10+20+30;
+SELECT 60/3;
+-- This exludes the NULL getting counted as 0 and if it was counted it would've been 
+-- 4 in the denominator instead of 3 for the values total
