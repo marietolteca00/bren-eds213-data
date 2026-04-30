@@ -35,5 +35,7 @@ SELECT Personnel.Name, COUNT(*) AS Num_floated_nests
     WHERE Site = 'nome'
     AND Year BETWEEN 1998 AND 2008
     AND ageMethod = 'float'
-    GROUP BY Observer
+    -- Add column Name from personnel table
+    GROUP BY Observer, Personnel.Name
+    -- Filter for only row 36
     HAVING Num_floated_nests = 36;
