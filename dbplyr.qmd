@@ -1,0 +1,123 @@
+---
+title: "dplyr"
+format: html
+editor: visual
+---
+
+```{r, message=FALSE}
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
+Question: 
+- Is collect(), us fetching for the database?
+
+## Connecting to a database
+```{r}
+conn <- DBI::dbConnect(duckdb::duckdb(),
+                       # Connect to database on drive
+                       dbdir = "database/database.duckdb")
+
+# Check if connection worked
+conn
+```
+# Check if connected to database - Check for tables in the database
+### Same thing as `.table` in python
+```{r}
+DBI::dbListTables(conn)
+```
+
+# Look at one table
+It returns another object- It doesn't know how many rows it has
+```{r}
+species <- tbl(conn, 
+               # Select table
+               "Species")
+# Look at table
+species
+
+# Simliar to this
+# species <- read_csv()
+```
+
+# Let's do some queries
+
+Question: Is this selecting from the whole database or only from when we looked at it from the code chunk above?
+
+```{r}
+species_a <- dbGetQuery(conn, 
+                        # Pass Query
+                        "SELECT * FROM Species WHERE Code LIKE 'a%'") # No semi colon
+
+species_a
+
+
+```
+
+## Dbplyer
+```{r}
+species %>% 
+  filter(Relevance == "Study species") %>% 
+  select(Code, Scientific_name) %>% 
+  arrange(Scientific_name) %>% 
+  head(3) %>% 
+  # Could get SQL Code for this 
+  show_query()
+  
+```
+
+```{r}
+species %>% 
+  filter(Relevance == "Study species") %>% 
+  select(Code, Scientific_name) %>% 
+  arrange(Scientific_name) %>% 
+  head(3) %>% 
+  # get the entire database
+  collect()
+  
+```
+
+
+# Lets do a group_by, summarize
+```{r}
+species %>% 
+  group_by(Relevance) %>% 
+  summarize(num_species = n()) %>% 
+  #show_query()
+  collect()
+```
+
+# Mutate
+```{r}
+species_x <- species %>% 
+  mutate(Xcode = paste("X_", Code)) %>% 
+  #show_query()
+  collect()
+```
+# Let's do a Join
+To start off we will load in the tables
+```{r}
+eggs_db <- tbl(conn, "Bird_eggs")
+
+nest_db <- tbl(conn, "Bird_nests")
+```
+
+# 
+```{r}
+nest_eggs_df <- nest_db %>% 
+  left_join(eggs_db, by = "Nest_ID", keep=FALSE) %>% 
+  head(5) %>% 
+  #show_query() # Not the best way to do an SQL for joining
+  collect()
+```
+
+# Closing Connnection
+Important to do when finishing
+```{r}
+DBI::dbDisconnect(conn, shutdown = TRUE)
+```
+
+
+
+
