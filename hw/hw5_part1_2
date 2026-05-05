@@ -1,0 +1,10 @@
+Answer the following questions.
+
+Do the tables created automatically by DuckDB guarantee that a nest ID mentioned in the Eggs_big table actually exists in the Nests_big table? If yes, explain how that is guaranteed, if not, explain why not. (6pts)
+- No, DuckDB does not guarantee that a nest_ID is mentioned in the Eggs_big table actually exist in the Nests_big table. Since the CSVs were imported there were no key contraints set.
+
+What queries did you use (or could you use) to find the minimum and maximum longitude values in the Site table? (2pts)
+- I used a separate line where I did `SELECT MAX(Longitude) FROM Site`and `SELECT MIN(Longitude) FROM Site` to find the Minimum and maximum values within the longtitude column.
+
+The interpretation of the Pearson correlation coefficient is: +1 is a perfect positive correlation, -1 is a perfect negative correlation, and 0 is no correlation at all. How would you characterize the correlation between egg volume and longitude for the eggs of Calidris alpina in the Arctic above Canada? (2pts)
+- The Pearson Correlation Coefficient for Volume and Longitude has a week correlation with a value of `-0.1081`. There is little to no correlation between egg volume and longitude for the eggs of Calidris aplina species in the Arctic above Canada.
