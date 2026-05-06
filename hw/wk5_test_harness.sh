@@ -8,17 +8,19 @@ csv_file=$5
 # get current time and store it
 start=$SECONDS
 
-
-for i in $(seq $num_reps); do
+# Begin For-looop
+for num_reps in $(seq "$num_reps"); do
     duckdb "$db_file" "$query"
 done
 
 # End time 
 end=$SECONDS
 
-# Get elapsed time
+# Compute elapsed time - Basic arithmetic.
 elapsed=$((end - start))
 
-# Get avg
+# Division
 avg=$(echo "scale=7; $elapsed/$num_reps" | bc)
-echo "$label,$avg" >> $csv_file
+
+# I|O redirect
+echo "$label,$avg" >> "$csv_file"
