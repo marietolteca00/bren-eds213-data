@@ -1,0 +1,4 @@
+type_of_query,total_seconds
+subquery,.0220000
+outer_join,.0220000
+except,.0230000
