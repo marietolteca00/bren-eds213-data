@@ -1,0 +1,109 @@
+---
+title: "hw6_1"
+format: html
+---
+
+```{r, message=FALSE}
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
+
+
+## Connecting to a database
+```{r}
+conn <- DBI::dbConnect(duckdb::duckdb(),
+                       # Connect to database on drive
+                       dbdir = "database/database.duckdb")
+
+# Check if connection worked
+conn
+```
+
+
+# Check if connected to database - Check for tables in the database
+### Same thing as `.table` in python
+```{r}
+DBI::dbListTables(conn)
+```
+
+# Look at one table
+It returns another object- It doesn't know how many rows it has
+```{r}
+egg_table <- tbl(conn, 
+               # Select table
+               "Bird_eggs")
+
+personnel_table <- tbl(conn, "Personnel")
+
+Bird_nests_table <- tbl(conn, "Bird_nests")
+
+# Look at tables
+egg_table
+
+personnel_table
+
+Bird_nests_table
+```
+# Dbplyer
+## Left-Join
+```{r}
+nest_eggs_df <- Bird_nests_table %>% 
+  left_join(egg_table, by = "Nest_ID") %>% 
+  group_by(Observer) %>% 
+  summarize(total_eggs = n()) %>%
+  collect()
+
+# Print Table
+nest_eggs_df
+
+```
+
+# Look at tables before left join
+```{r}
+Bird_nests_table
+personnel_table
+```
+
+
+```{r, message=FALSE}
+result <- egg_table %>%
+  left_join(Bird_nests_table, by = "Nest_ID") %>%
+  group_by(Observer) %>%
+  summarize(total_eggs = n()) %>%
+  inner_join(personnel_table, by = c("Observer" = "Abbreviation")) %>%
+  arrange(desc(total_eggs)) %>%
+  head(3) %>%
+  select(Name, total_eggs) %>%
+  collect()
+
+result
+
+```
+# Using Show Query
+```{r}
+result <- egg_table %>%
+  left_join(Bird_nests_table, by = "Nest_ID") %>%
+  group_by(Observer) %>%
+  summarize(total_eggs = n()) %>%
+  inner_join(personnel_table, by = c("Observer" = "Abbreviation")) %>%
+  arrange(desc(total_eggs)) %>%
+  head(3) %>%
+  select(Name, total_eggs) %>%
+  show_query()
+```
+
+
+# Questions
+- `dbplyr` Did not create a temporary table from the query, it managed to do everything in one query. Which is pretty long.
+
+- Yes the query set a limit to 3 rows using SQL LIMIT Clause.
+
+
+# Closing Connnection
+Important to do when finishing
+```{r}
+DBI::dbDisconnect(conn, shutdown = TRUE)
+```
+
