@@ -103,7 +103,7 @@ eggs_db <- tbl(conn, "Bird_eggs")
 nest_db <- tbl(conn, "Bird_nests")
 ```
 
-# 
+# Left Join
 ```{r}
 nest_eggs_df <- nest_db %>% 
   left_join(eggs_db, by = "Nest_ID", keep=FALSE) %>% 
