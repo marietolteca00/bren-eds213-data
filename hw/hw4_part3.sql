@@ -39,3 +39,43 @@ SELECT Personnel.Name, COUNT(*) AS Num_floated_nests
     GROUP BY Observer, Personnel.Name
     -- Filter for only row 36
     HAVING Num_floated_nests = 36;
+
+-- GEMINI
+SELECT
+  p.Name,
+  COUNT(*) AS Num_floated_nests
+FROM Bird_nests n
+JOIN Personnel p
+  ON n.Observer = p.Abbreviation
+WHERE
+  n.Site = 'nome'
+  AND n.Year BETWEEN 1998 AND 2008
+  AND n.ageMethod = 'float'
+GROUP BY
+  p.Name
+HAVING
+  COUNT(*) = 36;
+
+-- CLAUDE
+SELECT p.Name, COUNT(*) AS Num_floated_nests
+FROM Bird_nests bn
+JOIN Personnel p ON bn.Observer = p.Abbreviation
+JOIN Site s ON bn.Site = s.Code
+WHERE s.Site_name ILIKE '%nome%'
+  AND bn.Year BETWEEN 1998 AND 2008
+  AND bn.ageMethod = 'float'
+GROUP BY p.Name
+HAVING COUNT(*) = 36;
+
+-- CHATGPT
+SELECT
+    p.Name,
+    COUNT(*) AS Num_floated_nests
+FROM Bird_nests bn
+JOIN Personnel p
+    ON bn.Observer = p.Abbreviation
+WHERE bn.Site = 'nome'
+  AND bn.Year BETWEEN 1998 AND 2008
+  AND bn.ageMethod = 'float'
+GROUP BY p.Name
+HAVING COUNT(*) = 36;
