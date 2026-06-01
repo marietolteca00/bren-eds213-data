@@ -1,0 +1,349 @@
+"anon_id","state","origin","county","year","month","type","inj_level","condition","gear","fine","infraction_type"
+"ID_161412","CA","commercial","San Diego",2000,2,"Gray Whale",8,"alive","gillnet",1,1
+"ID_154424","CA","commercial","Orange",2000,3,"Gray Whale",8,"alive","gillnet",1,1
+"ID_723843","CA","commercial","Los Angeles",2000,3,"Gray Whale",7,"alive","gillnet",0,0
+"ID_174361","CA","commercial","Los Angeles",2000,3,"Gray Whale",10,"dead","gillnet",1,1
+"ID_146207","CA","commercial","Santa Barbara",2000,4,"Gray Whale",10,"dead","trap",1,1
+"ID_509955","CA","commercial","Santa Cruz",2000,6,"Gray Whale",5,"alive","gillnet",0,0
+"ID_685892","CA","commercial","Monterey",2000,7,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_959667","CA","commercial","San Luis Obispo",2000,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_726545","CA","commercial","Monterey",2000,11,"Humpback Whale",10,"dead","line_buoys",1,1
+"ID_686328","CA","commercial","Marin",2001,9,"Humpback Whale",3,"alive","trap",0,0
+"ID_789059","CA","commercial","Santa Barbara",2002,4,"Gray Whale",3,"alive","gillnet",0,0
+"ID_421502","CA","commercial","Los Angeles",2002,5,"Gray Whale",3,"alive","gillnet",0,0
+"ID_941220","WA","commercial","Grays Harbor",2002,8,"Gray Whale",10,"dead","net",1,1
+"ID_349761","CA","commercial","San Luis Obispo",2003,1,"Gray Whale",3,"alive","slack _lines",0,0
+"ID_865799","CA","commercial","Orange",2003,3,"Gray Whale",3,"alive","gillnet",0,0
+"ID_285657","CA","commercial","Monterey",2003,3,"Humpback Whale",3,"alive","trap",0,0
+"ID_113609","OR","commercial","Tillamook",2003,4,"Gray Whale",10,"dead","slack _lines",1,1
+"ID_598845","WA","commercial",NA,2003,5,"Gray Whale",3,"alive","gillnet",0,0
+"ID_783918","CA","commercial","Santa Barbara",2003,5,"Humpback Whale",3,"alive","trap",0,0
+"ID_491481","WA","commercial","Grays Harbor",2003,7,"Gray Whale",10,"dead","gillnet",1,1
+"ID_621507","CA","commercial","San Francisco",2003,8,"Humpback Whale",3,"alive","trap",0,0
+"ID_338549","CA","commercial","Humboldt",2003,11,"Humpback Whale",9,"alive","trap",1,1
+"ID_206092","CA","commercial",NA,2003,11,"Humpback Whale",9,"alive","trap",1,1
+"ID_843620","CA","commercial","San Diego",2004,1,"Gray Whale",2,"alive","gillnet",0,0
+"ID_348033","CA","commercial","San Mateo",2004,3,"Gray Whale",2,"alive","gillnet",0,0
+"ID_607825","OR","commercial","Tillamook",2004,4,"Gray Whale",2,"alive","gillnet",0,0
+"ID_242295","WA","commercial","Grays Harbor",2004,5,"Gray Whale",10,"dead","gillnet",1,2
+"ID_526928","CA","commercial","Monterey",2004,5,"Humpback Whale",4,"alive","trap",0,0
+"ID_426553","WA","commercial","Grays Harbor",2004,5,"Gray Whale",4,"alive","gillnet",0,0
+"ID_202661","CA","commercial","San Diego",2004,8,"Gray Whale",4,"alive","line_buoys",0,0
+"ID_440097","CA","commercial","San Luis Obispo",2004,8,"Humpback Whale",4,"alive","net",0,0
+"ID_350882","CA","commercial","San Diego",2004,11,"Humpback Whale",4,"alive","drift_gillnet",0,0
+"ID_443444","CA","commercial","San Diego",2005,1,"Gray Whale",4,"alive","drift_gillnet",0,0
+"ID_174742","CA","commercial","Santa Barbara",2005,1,"Unidentified",5,"alive","line_buoys",0,0
+"ID_459097","OR","commercial","Lincoln",2005,2,"Gray Whale",5,"alive","slack _lines",0,0
+"ID_736967","CA","commercial","Los Angeles",2005,2,"Gray Whale",5,"alive","line_buoys",0,0
+"ID_386752","WA","commercial","Grays Harbor",2005,4,"Gray Whale",5,"alive","line_buoys",0,0
+"ID_100102","OR","commercial","Coos",2005,7,"Gray Whale",10,"dead","line_buoys",1,2
+"ID_306956","CA","commercial","Santa Barbara",2005,8,"Humpback Whale",5,"alive","line_buoys",0,0
+"ID_732136","WA","commercial","Clallam",2005,8,"Gray Whale",7,"alive","line_buoys",1,2
+"ID_923371","CA","commercial","Monterey",2005,9,"Humpback Whale",7,"alive","trap",1,2
+"ID_302504","CA","commercial","San Francisco",2005,12,"Humpback Whale",8,"alive","slack _lines",1,2
+"ID_775362","CA","commercial","Santa Barbara",2006,4,"Humpback Whale",2,"alive","line_buoys",0,0
+"ID_886447","OR","commercial","Tillamook",2006,4,"Gray Whale",2,"alive","net",0,0
+"ID_423291","OR","commercial","Coos",2006,5,"Gray Whale",9,"alive","slack _lines",1,4
+"ID_606861","OR","commercial","Coos",2006,5,"Humpback Whale",10,"dead","slack _lines",1,4
+"ID_395899","WA","commercial","Grays Harbor",2006,5,"Gray Whale",10,"dead","slack _lines",1,4
+"ID_468257","CA","commercial","Orange",2006,6,"Humpback Whale",6,"alive","line_buoys",1,4
+"ID_179767","CA","commercial","Monterey",2006,8,"Humpback Whale",7,"alive","pot",1,4
+"ID_125489","WA","commercial","Snohomish",2006,11,"Fin Whale",10,"dead","line_buoys",1,4
+"ID_425229","OR","commercial","Lincoln",2007,1,"Gray Whale",5,"alive","line_buoys",1,4
+"ID_606806","CA","commercial","Los Angeles",2007,4,"Gray Whale",5,"alive","line_buoys",1,4
+"ID_558900","OR","commercial","Lincoln",2007,4,"Gray Whale",5,"alive","slack _lines",1,4
+"ID_351448","CA","commercial","Orange",2007,5,"Humpback Whale",4,"alive","line_buoys",0,0
+"ID_326278","CA","commercial","Santa Cruz",2007,6,"Unidentified",4,"alive","line_buoys",0,0
+"ID_725041","CA","commercial","Monterey",2007,6,"Gray Whale",3,"alive","line_buoys",0,0
+"ID_778668","WA","commercial",NA,2007,7,"Gray Whale",3,"alive","line_buoys",0,0
+"ID_416469","OR","commercial","Lincoln",2007,8,"Humpback Whale",2,"alive","slack _lines",0,0
+"ID_257983","WA","commercial","Grays Harbor",2007,10,"Unidentified",2,"alive","slack _lines",0,0
+"ID_846780","CA","commercial","San Mateo",2007,10,"Humpback Whale",4,"alive","line_buoys",0,0
+"ID_163083","CA","commercial","San Francisco",2007,10,"Humpback Whale",5,"alive","line_buoys",1,4
+"ID_671768","CA","commercial","Humboldt",2008,4,"Gray Whale",6,"alive","trap",1,4
+"ID_401693","CA","commercial","Monterey",2008,5,"Humpback Whale",9,"alive","slack _lines",1,4
+"ID_816792","WA","commercial","Clallam",2008,7,"Humpback Whale",9,"alive","line_buoys",1,4
+"ID_727823","CA","commercial","San Mateo",2008,8,"Unidentified",8,"alive","line_buoys",1,4
+"ID_566204","CA","commercial","Ventura",2008,9,"Unidentified",2,"alive","slack _lines",0,0
+"ID_534085","CA","commercial","Los Angeles",2009,1,"Fin Whale",2,"alive","line_buoys",0,0
+"ID_105260","CA","commercial","San Diego",2009,1,"Humpback Whale",3,"alive","drift_gillnet",0,0
+"ID_677846","CA","commercial","San Diego",2009,1,"Gray Whale",4,"alive","net",0,0
+"ID_765129","CA","commercial","Orange",2009,3,"Gray Whale",5,"alive","net",1,4
+"ID_711063","CA","commercial","San Diego",2009,6,"Fin Whale",4,"alive","line_buoys",0,0
+"ID_125850","WA","commercial","Clallam",2009,6,"Gray Whale",3,"alive","line_buoys",0,0
+"ID_675132","CA","commercial","Humboldt",2009,7,"Gray Whale",5,"alive","net",1,4
+"ID_626194","CA","commercial","Santa Barbara",2009,10,"Humpback Whale",6,"alive","net",1,4
+"ID_136077","CA","commercial","San Diego",2010,3,"Gray Whale",7,"alive","line_buoys",1,4
+"ID_964878","CA","commercial","Marin",2010,4,"Gray Whale",8,"alive","line_buoys",1,3
+"ID_439447","CA","commercial","Monterey",2010,4,"Minke Whale",3,"alive","net",0,0
+"ID_964164","OR","commercial",NA,2010,4,"Gray Whale",10,"dead","line_buoys",1,3
+"ID_108945","OR","commercial","Lincoln",2010,5,"Gray Whale",5,"alive","gillnet",1,3
+"ID_484213","CA","commercial","Orange",2010,5,"Gray Whale",7,"alive","gillnet",1,3
+"ID_444670","WA","commercial",NA,2010,5,"Humpback Whale",4,"alive","slack _lines",0,0
+"ID_476659","CA","commercial","Monterey",2010,8,"Humpback Whale",3,"alive","net",0,0
+"ID_872878","OR","commercial","Lincoln",2010,8,"Humpback Whale",10,"dead","longline",1,3
+"ID_184393","CA","commercial","Mendocino",2010,8,"Gray Whale",6,"alive","longline",1,3
+"ID_544603","CA","commercial","Mendocino",2010,8,"Humpback Whale",8,"alive","trap",1,3
+"ID_960427","CA","commercial","Humboldt",2010,8,"Humpback Whale",3,"alive","trap",0,0
+"ID_631648","CA","commercial","Monterey",2010,8,"Humpback Whale",4,"alive","trap",0,0
+"ID_213463","CA","commercial","San Diego",2010,12,"Sperm Whale",10,"dead","drift_gillnet",1,3
+"ID_592641","CA","commercial","San Diego",2010,12,"Sperm Whale",5,"alive","drift_gillnet",1,3
+"ID_653307","CA","commercial","Monterey",2011,5,"Humpback Whale",6,"alive","trap",1,3
+"ID_784348","CA","commercial","San Luis Obispo",2011,7,"Gray Whale",4,"alive","gillnet",0,0
+"ID_983725","CA","commercial","San Mateo",2011,7,"Humpback Whale",3,"alive","trap",0,0
+"ID_182555","CA","commercial","Marin",2011,7,"Fin Whale",2,"alive","gillnet",0,0
+"ID_208126","WA","commercial","Grays Harbor",2011,8,"Humpback Whale",2,"alive","trap",0,0
+"ID_744792","WA","commercial","Snohomish",2011,8,"Humpback Whale",4,"alive","trap",0,0
+"ID_844053","CA","commercial","San Mateo",2011,8,"Gray Whale",5,"alive","gillnet",1,3
+"ID_420649","WA","non-commercial",NA,2011,8,"Humpback Whale",6,"alive","trap",1,3
+"ID_111248","CA","commercial",NA,2011,12,"Minke Whale",4,"alive","drift_gillnet",0,0
+"ID_425154","CA","commercial","Orange",2012,3,"Gray Whale",3,"alive","gillnet",0,0
+"ID_833049","CA","commercial","Orange",2012,3,"Gray Whale",5,"alive","gillnet",1,3
+"ID_116100","CA","commercial","Orange",2012,4,"Gray Whale",3,"alive","longline",0,0
+"ID_241493","CA","commercial","Mendocino",2012,4,"Gray Whale",5,"alive","gillnet",1,3
+"ID_690974","CA","commercial","Monterey",2012,5,"Gray Whale",3,"alive","gillnet",0,0
+"ID_812371","CA","commercial","Humboldt",2012,5,"Gray Whale",5,"alive","longline",1,3
+"ID_717439","CA","commercial","Marin",2012,5,"Gray Whale",3,"alive","longline",0,0
+"ID_136794","CA","commercial","Monterey",2012,5,"Gray Whale",5,"alive","gillnet",1,3
+"ID_769213","CA","commercial","Monterey",2012,5,"Humpback Whale",3,"alive","trap",0,0
+"ID_328195","OR","commercial","Curry",2012,5,"Gray Whale",5,"alive","longline",1,3
+"ID_306410","CA","commercial","Monterey",2012,6,"Humpback Whale",7,"alive","trap",1,3
+"ID_161640","OR","commercial","Tillamook",2012,7,"Humpback Whale",8,"alive","trap",1,3
+"ID_112349","CA","commercial","San Diego",2012,8,"Gray Whale",6,"alive","gillnet",1,3
+"ID_921214","CA","commercial","Mendocino",2012,10,"Gray Whale",6,"alive","gillnet",1,3
+"ID_926995","WA","commercial","Clallam",2013,3,"Gray Whale",6,"alive","gillnet",1,1
+"ID_108080","CA","commercial","Los Angeles",2013,3,"Gray Whale",4,"alive","gillnet",0,0
+"ID_161979","CA","commercial","Santa Barbara",2013,4,"Gray Whale",3,"alive","gillnet",0,0
+"ID_174398","CA","commercial","San Francisco",2013,4,"Gray Whale",2,"alive","longline",0,0
+"ID_572190","CA","commercial","Humboldt",2013,6,"Gray Whale",10,"dead","gillnet",1,1
+"ID_413612","CA","commercial","Marin",2013,6,"Gray Whale",10,"dead","gillnet",1,1
+"ID_829792","OR","commercial","Curry",2013,6,"Gray Whale",10,"dead","longline",1,1
+"ID_974034","CA","commercial","Marin",2013,7,"Gray Whale",10,"dead","longline",1,1
+"ID_847358","OR","commercial","Curry",2013,8,"Unidentified",3,"alive","net",0,0
+"ID_386254","WA","commercial","Clallam",2013,9,"Gray Whale",4,"alive","longline",0,0
+"ID_562021","CA","commercial","San Diego",2013,10,"Gray Whale",10,"dead","drift_gillnet",1,1
+"ID_557615","CA","commercial","Monterey",2014,1,"Gray Whale",2,"alive","gillnet",0,0
+"ID_701030","OR","commercial","Tillamook",2014,3,"Unidentified",5,"alive","gillnet",1,1
+"ID_626232","CA","commercial","Monterey",2014,4,"Humpback Whale",7,"alive","longline",1,1
+"ID_279025","CA","commercial","Monterey",2014,5,"Humpback Whale",5,"alive","gillnet",1,1
+"ID_387470","WA","commercial","Grays Harbor",2014,5,"Humpback Whale",4,"alive","longline",0,0
+"ID_826779","OR","commercial","Curry",2014,5,"Gray Whale",6,"alive","gillnet",1,1
+"ID_626419","OR","commercial","Lincoln",2014,5,"Gray Whale",4,"alive","gillnet",0,0
+"ID_653423","CA","commercial","Los Angeles",2014,6,"Humpback Whale",10,"dead","longline",1,1
+"ID_449143","CA","commercial","Santa Barbara",2014,6,"Humpback Whale",3,"alive","trap",0,0
+"ID_160988","CA","commercial","San Diego",2014,7,"Humpback Whale",7,"alive","gillnet",1,1
+"ID_438090","CA","commercial","San Diego",2014,7,"Gray Whale",8,"alive","gillnet",1,4
+"ID_644405","CA","commercial","Monterey",2014,8,"Humpback Whale",9,"alive","longline",1,4
+"ID_754005","CA","commercial","Los Angeles",2014,9,"Gray Whale",8,"alive","gillnet",1,4
+"ID_433779","CA","commercial","San Diego",2014,9,"Gray Whale",7,"alive","gillnet",1,4
+"ID_554197","CA","commercial","Monterey",2014,9,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_951364","CA","commercial","Monterey",2014,9,"Humpback Whale",7,"alive","trap",0,0
+"ID_781166","OR","commercial","Lincoln",2014,9,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_380481","CA","commercial","Monterey",2014,9,"Humpback Whale",8,"alive","trap",1,4
+"ID_685573","WA","commercial","Clallam",2014,9,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_155181","CA","commercial","Monterey",2014,9,"Humpback Whale",3,"alive","trap",0,0
+"ID_755515","OR","commercial","Lincoln",2014,10,"Humpback Whale",10,"dead","pot",1,4
+"ID_191702","CA","non-commercial","Monterey",2014,10,"Humpback Whale",4,"alive","trap",0,0
+"ID_197017","CA","commercial","Monterey",2014,11,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_710595","CA","commercial","Monterey",2015,1,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_315758","CA","commercial","Monterey",2015,1,"Humpback Whale",6,"alive","longline",0,0
+"ID_892390","CA","commercial","Los Angeles",2015,2,"Gray Whale",4,"alive","gillnet",0,0
+"ID_123578","CA","commercial","Orange",2015,2,"Fin Whale",6,"alive","gillnet",0,0
+"ID_954660","CA","commercial","Monterey",2015,2,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_452147","CA","non-commercial","Monterey",2015,2,"Humpback Whale",6,"alive","trap",0,0
+"ID_225177","CA","commercial","Santa Barbara",2015,2,"Gray Whale",7,"alive","gillnet",0,0
+"ID_662058","CA","commercial","Ventura",2015,3,"Unidentified",10,"dead","gillnet",1,4
+"ID_831685","CA","commercial","Orange",2015,3,"Gray Whale",5,"alive","gillnet",0,0
+"ID_721000","CA","commercial","San Luis Obispo",2015,3,"Gray Whale",4,"alive","longline",0,0
+"ID_720658","CA","commercial","Orange",2015,3,"Gray Whale",3,"alive","gillnet",0,0
+"ID_667050","WA","commercial",NA,2015,3,"Gray Whale",4,"alive","gillnet",0,0
+"ID_295291","CA","commercial","Santa Cruz",2015,3,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_400323","CA","commercial","Mendocino",2015,4,"Killer Whale",10,"dead","longline",1,4
+"ID_750453","CA","commercial","Monterey",2015,5,"Unidentified",6,"alive","gillnet",0,0
+"ID_643157","CA","commercial","Mendocino",2015,5,"Unidentified",7,"alive","gillnet",0,0
+"ID_776464","CA","commercial","Monterey",2015,5,"Humpback Whale",3,"alive","longline",0,0
+"ID_958810","CA","commercial","Santa Barbara",2015,5,"Humpback Whale",8,"alive","longline",1,4
+"ID_425483","OR","commercial","Curry",2015,5,"Gray Whale",9,"alive","gillnet",1,4
+"ID_369253","CA","commercial","Orange",2015,5,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_720631","CA","commercial","Santa Barbara",2015,5,"Unidentified",3,"alive","gillnet",0,0
+"ID_183894","CA","commercial","Monterey",2015,6,"Humpback Whale",5,"alive","longline",0,0
+"ID_546861","CA","commercial","Santa Cruz",2015,6,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_884052","CA","commercial","Monterey",2015,6,"Humpback Whale",2,"alive","longline",0,0
+"ID_236713","CA","commercial","Monterey",2015,7,"Humpback Whale",4,"alive","longline",0,0
+"ID_658680","WA","commercial","Clallam",2015,7,"Humpback Whale",2,"alive","net",0,0
+"ID_377185","CA","commercial","Mendocino",2015,7,"Humpback Whale",5,"alive","trap",0,0
+"ID_263233","CA","commercial","Mendocino",2015,7,"Humpback Whale",7,"alive","trap",0,0
+"ID_814797","CA","commercial","Monterey",2015,7,"Humpback Whale",4,"alive","trap",0,0
+"ID_586196","CA","commercial","Orange",2015,7,"Gray Whale",7,"alive","gillnet",0,0
+"ID_565829","CA","commercial","Monterey",2015,8,"Humpback Whale",7,"alive","trap",0,0
+"ID_313972","WA","commercial","Clallam",2015,8,"Gray Whale",8,"alive","gillnet",1,2
+"ID_321898","CA","commercial","Los Angeles",2015,8,"Unidentified",5,"alive","gillnet",0,0
+"ID_727936","CA","commercial","Ventura",2015,8,"Humpback Whale",3,"alive","trap",0,0
+"ID_802669","CA","commercial","Santa Barbara",2015,8,"Unidentified",7,"alive","gillnet",0,0
+"ID_830912","CA","commercial","Los Angeles",2015,9,"Blue Whale",3,"alive","gillnet",0,0
+"ID_937411","CA","commercial","Orange",2015,9,"Humpback Whale",3,"alive","trap",0,0
+"ID_890367","CA","commercial","Monterey",2015,9,"Humpback Whale",4,"alive","trap",0,0
+"ID_459317","CA","commercial","Los Angeles",2015,9,"Humpback Whale",6,"alive","longline",0,0
+"ID_874079","CA","commercial","Orange",2015,9,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_891174","CA","commercial","Ventura",2015,9,"Humpback Whale",5,"alive","net",0,0
+"ID_843172","CA","commercial","Orange",2015,9,"Humpback Whale",7,"alive","longline",0,0
+"ID_201286","CA","commercial","Orange",2015,10,"Fin Whale",5,"alive","gillnet",0,0
+"ID_891929","CA","commercial","Los Angeles",2015,10,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_953045","CA","commercial","Monterey",2015,10,"Humpback Whale",2,"alive","gillnet",0,0
+"ID_180411","CA","commercial","San Diego",2015,10,"Humpback Whale",3,"alive","net",0,0
+"ID_262720","CA","commercial","San Diego",2015,11,"Humpback Whale",5,"alive","trap",0,0
+"ID_352650","CA","commercial","Marin",2015,11,"Unidentified",6,"alive","gillnet",0,0
+"ID_654805","CA","commercial","Monterey",2015,11,"Humpback Whale",7,"alive","trap",0,0
+"ID_742758","CA","commercial","Santa Barbara",2015,11,"Unidentified",8,"alive","gillnet",1,2
+"ID_235131","CA","commercial","San Diego",2015,12,"Gray Whale",9,"alive","gillnet",1,2
+"ID_191544","CA","commercial","Marin",2016,1,"Humpback Whale",9,"alive","trap",1,2
+"ID_864105","CA","commercial","Los Angeles",2016,2,"Humpback Whale",9,"alive","trap",1,2
+"ID_644402","CA","commercial","Orange",2016,2,"Gray Whale",6,"alive","gillnet",0,0
+"ID_548642","CA","commercial","San Diego",2016,2,"Humpback Whale",8,"alive","trap",1,2
+"ID_432860","CA","commercial","Orange",2016,3,"Humpback Whale",6,"alive","trap",0,0
+"ID_301385","CA","commercial","Monterey",2016,4,"Killer Whale",5,"alive","longline",0,0
+"ID_207478","CA","commercial","Monterey",2016,4,"Humpback Whale",7,"alive","longline",0,0
+"ID_112369","CA","commercial","Monterey",2016,4,"Humpback Whale",5,"alive","longline",0,0
+"ID_287565","CA","commercial","Monterey",2016,4,"Humpback Whale",8,"alive","gillnet",1,2
+"ID_100093","CA","commercial","Monterey",2016,4,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_752196","CA","commercial","Humboldt",2016,4,"Humpback Whale",8,"alive","pot",1,2
+"ID_916817","CA","commercial","Monterey",2016,4,"Humpback Whale",5,"alive","longline",0,0
+"ID_290450","CA","commercial","Orange",2016,4,"Gray Whale",7,"alive","gillnet",0,0
+"ID_741327","CA","commercial","Orange",2016,4,"Gray Whale",5,"alive","gillnet",0,0
+"ID_203353","CA","commercial","Monterey",2016,5,"Humpback Whale",9,"alive","longline",1,2
+"ID_305272","CA","commercial","Monterey",2016,5,"Humpback Whale",4,"alive","longline",0,0
+"ID_719324","CA","commercial","Monterey",2016,5,"Humpback Whale",3,"alive","longline",0,0
+"ID_509504","CA","commercial","San Mateo",2016,5,"Unidentified",5,"alive","gillnet",0,0
+"ID_955155","OR","commercial","Lincoln",2016,5,"Humpback Whale",3,"alive","pot",0,0
+"ID_459410","CA","commercial","Monterey",2016,5,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_848178","CA","commercial","Monterey",2016,5,"Humpback Whale",6,"alive","longline",0,0
+"ID_439691","CA","commercial","San Mateo",2016,5,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_644285","CA","commercial","Santa Barbara",2016,6,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_691974","CA","commercial","Sonoma",2016,6,"Humpback Whale",4,"alive","longline",0,0
+"ID_242680","CA","commercial","Monterey",2016,6,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_218693","CA","commercial","Monterey",2016,6,"Humpback Whale",5,"alive","longline",0,0
+"ID_682839","CA","commercial","Monterey",2016,6,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_764965","CA","commercial","Monterey",2016,6,"Humpback Whale",4,"alive","longline",0,0
+"ID_709838","CA","commercial","San Mateo",2016,6,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_121928","CA","commercial","San Diego",2016,6,"Blue Whale",7,"alive","longline",0,0
+"ID_707280","CA","commercial","Monterey",2016,7,"Humpback Whale",3,"alive","longline",0,0
+"ID_858805","CA","commercial","Los Angeles",2016,7,"Blue Whale",7,"alive","longline",0,0
+"ID_161162","CA","commercial","San Luis Obispo",2016,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_632611","CA","commercial","Orange",2016,8,"Humpback Whale",6,"alive","longline",0,0
+"ID_276314","CA","commercial","Monterey",2016,8,"Humpback Whale",3,"alive","longline",0,0
+"ID_422469","CA","commercial","Monterey",2016,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_903898","CA","commercial","Monterey",2016,8,"Humpback Whale",2,"alive","longline",0,0
+"ID_377161","CA","commercial","San Francisco",2016,8,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_994355","CA","commercial","San Luis Obispo",2016,8,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_171766","CA","commercial","Monterey",2016,8,"Humpback Whale",3,"alive","longline",0,0
+"ID_331416","CA","commercial","San Francisco",2016,8,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_638259","CA","commercial","Monterey",2016,8,"Blue Whale",4,"alive","gillnet",0,0
+"ID_687290","CA","commercial","San Luis Obispo",2016,8,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_963405","CA","commercial","Monterey",2016,8,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_280830","CA","commercial","San Mateo",2016,9,"Humpback Whale",7,"alive","trap",0,0
+"ID_710784","CA","commercial","Marin",2016,9,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_571806","CA","commercial","Marin",2016,9,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_305620","CA","commercial","San Francisco",2016,10,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_368229","CA","commercial","Orange",2016,10,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_904589","CA","commercial","Orange",2016,10,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_347258","CA","commercial","Monterey",2016,10,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_637767","CA","commercial","Sonoma",2016,12,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_495759","CA","commercial","Sonoma",2016,12,"Humpback Whale",2,"alive","longline",0,0
+"ID_712683","CA","commercial","Los Angeles",2017,1,"Gray Whale",5,"alive","longline",0,0
+"ID_706317","CA","commercial","San Diego",2017,3,"Gray Whale",7,"alive","gillnet",0,0
+"ID_542986","CA","commercial","Orange",2017,3,"Gray Whale",2,"alive","gillnet",0,0
+"ID_506581","CA","commercial","Orange",2017,3,"Gray Whale",2,"alive","gillnet",0,0
+"ID_624314","CA","commercial","Orange",2017,4,"Gray Whale",4,"alive","gillnet",0,0
+"ID_207087","CA","commercial","Orange",2017,4,"Gray Whale",6,"alive","gillnet",0,0
+"ID_953720","CA","commercial","Los Angeles",2017,4,"Gray Whale",8,"alive","gillnet",1,2
+"ID_858286","CA","commercial","Monterey",2017,4,"Humpback Whale",5,"alive","longline",0,0
+"ID_160261","CA","commercial","San Luis Obispo",2017,4,"Gray Whale",4,"alive","gillnet",0,0
+"ID_535516","CA","commercial","Orange",2017,4,"Gray Whale",7,"alive","gillnet",0,0
+"ID_262569","WA","commercial",NA,2017,4,"Gray Whale",10,"dead","longline",1,2
+"ID_951517","CA","commercial","San Francisco",2017,6,"Blue Whale",4,"alive","longline",0,0
+"ID_474528","CA","commercial","Monterey",2017,6,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_809996","CA","commercial","Monterey",2017,6,"Humpback Whale",3,"alive","longline",0,0
+"ID_755097","CA","commercial","Monterey",2017,6,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_721690","WA","commercial","Grays Harbor",2017,7,"Humpback Whale",5,"alive","longline",0,0
+"ID_908782","CA","commercial","Humboldt",2017,7,"Humpback Whale",4,"alive","trap",0,0
+"ID_130062","CA","commercial","San Diego",2017,7,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_577283","CA","commercial","San Diego",2017,8,"Blue Whale",3,"alive","gillnet",0,0
+"ID_447593","CA","commercial","Monterey",2017,8,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_852218","OR","commercial","Coos",2017,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_307351","CA","commercial","San Diego",2017,9,"Humpback Whale",6,"alive","slack _lines",0,0
+"ID_658590","CA","commercial","Orange",2017,9,"Humpback Whale",2,"alive","gillnet",0,0
+"ID_593135","CA","commercial","San Francisco",2017,9,"Blue Whale",7,"alive","gillnet",0,0
+"ID_843951","CA","commercial","Monterey",2017,10,"Humpback Whale",8,"alive","gillnet",1,2
+"ID_291490","WA","commercial",NA,2017,10,"Humpback Whale",5,"alive","net",0,0
+"ID_572287","CA","commercial","Ventura",2017,11,"Gray Whale",10,"dead","gillnet",1,2
+"ID_383366","CA","commercial","Monterey",2017,11,"Humpback Whale",8,"alive","gillnet",1,2
+"ID_269481","CA","commercial","Monterey",2017,12,"Humpback Whale",4,"alive","slack _lines",0,0
+"ID_410249","CA","commercial","Orange",2017,12,"Gray Whale",8,"alive","gillnet",1,2
+"ID_538930","CA","commercial","Orange",2018,2,"Gray Whale",9,"alive","gillnet",1,2
+"ID_914380","CA","commercial","Monterey",2018,2,"Gray Whale",0,"alive","gillnet",0,0
+"ID_720918","CA","commercial","Los Angeles",2018,3,"Gray Whale",6,"alive","gillnet",0,0
+"ID_967735","WA","commercial","Snohomish",2018,4,"Gray Whale",4,"alive","slack _lines",0,0
+"ID_902295","WA","commercial",NA,2018,4,"Gray Whale",10,"dead","slack _lines",1,2
+"ID_998666","CA","commercial","San Diego",2018,4,"Gray Whale",6,"alive","gillnet",0,0
+"ID_920450","CA","commercial","Orange",2018,4,"Gray Whale",3,"alive","gillnet",0,0
+"ID_736658","WA","commercial","Grays Harbor",2018,4,"Humpback Whale",4,"alive","slack _lines",0,0
+"ID_173126","WA","commercial","Clallam",2018,5,"Gray Whale",5,"alive","slack _lines",0,0
+"ID_351092","CA","commercial","San Francisco",2018,5,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_407626","CA","commercial",NA,2018,5,"Humpback Whale",2,"alive","gillnet",0,0
+"ID_713034","CA","commercial","Monterey",2018,5,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_162580","WA","commercial","Grays Harbor",2018,5,"Humpback Whale",10,"dead","slack _lines",1,2
+"ID_997669","CA","commercial","Marin",2018,5,"Gray Whale",10,"dead","gillnet",1,2
+"ID_721334","CA","commercial","Monterey",2018,5,"Humpback Whale",8,"alive","slack _lines",1,3
+"ID_696392","CA","commercial","Santa Barbara",2018,5,"Fin Whale",5,"alive","gillnet",0,0
+"ID_841355","WA","commercial","Grays Harbor",2018,5,"Gray Whale",8,"alive","gillnet",1,3
+"ID_879948","CA","commercial","Monterey",2018,5,"Humpback Whale",9,"alive","slack _lines",1,3
+"ID_219534","OR","commercial","Lincoln",2018,6,"Gray Whale",5,"alive","slack _lines",0,0
+"ID_412352","CA","commercial","San Mateo",2018,6,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_783111","CA","commercial","Los Angeles",2018,7,"Humpback Whale",10,"dead","gillnet",1,3
+"ID_905261","WA","commercial","Grays Harbor",2018,7,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_216709","CA","commercial","Monterey",2018,7,"Humpback Whale",4,"alive","slack _lines",0,0
+"ID_912287","CA","commercial","Mendocino",2018,7,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_960706","WA","non-commercial","Clallam",2018,7,"Humpback Whale",2,"alive","net",0,0
+"ID_838860","OR","commercial",NA,2018,7,"Humpback Whale",1,"alive","gillnet",0,0
+"ID_949031","WA","commercial","Clallam",2018,8,"Humpback Whale",2,"alive","net",0,0
+"ID_678300","CA","commercial","Humboldt",2018,8,"Humpback Whale",5,"alive","slack _lines",0,0
+"ID_501388","WA","commercial","Grays Harbor",2018,8,"Humpback Whale",10,"dead","gillnet",1,3
+"ID_463621","CA","commercial","San Diego",2018,8,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_566809","WA","non-commercial","Clallam",2018,8,"Humpback Whale",2,"alive","net",0,0
+"ID_539551","WA","non-commercial","Clallam",2018,8,"Humpback Whale",1,"alive","net",0,0
+"ID_686249","CA","commercial","San Francisco",2018,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_785243","CA","non-commercial","Monterey",2018,9,"Humpback Whale",6,"alive","trap",0,0
+"ID_722922","OR","commercial",NA,2018,9,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_802358","CA","commercial","San Diego",2018,9,"Humpback Whale",10,"dead","slack _lines",1,3
+"ID_146293","CA","commercial","San Luis Obispo",2018,9,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_858374","CA","commercial","Monterey",2018,9,"Humpback Whale",5,"alive","slack _lines",0,0
+"ID_812841","CA","commercial","San Luis Obispo",2018,9,"Humpback Whale",8,"alive","gillnet",1,3
+"ID_607102","CA","commercial","Monterey",2018,10,"Humpback Whale",5,"alive","trap",0,0
+"ID_868354","CA","commercial","San Mateo",2018,10,"Humpback Whale",8,"alive","slack _lines",1,3
+"ID_905971","CA","commercial","Mendocino",2018,10,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_537367","CA","commercial","Monterey",2018,11,"Humpback Whale",8,"alive","gillnet",1,3
+"ID_677711","CA","commercial","San Diego",2018,11,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_784172","CA","commercial","Marin",2018,12,"Humpback Whale",8,"alive","slack _lines",1,3
+"ID_532657","OR","commercial","Lincoln",2019,3,"Gray Whale",5,"alive","gillnet",0,0
+"ID_556020","CA","commercial","Ventura",2019,3,"Humpback Whale",8,"alive","gillnet",1,3
+"ID_422078","CA","commercial","Orange",2019,4,"Gray Whale",2,"alive","gillnet",0,0
+"ID_590003","CA","commercial","Orange",2019,4,"Gray Whale",8,"alive","gillnet",1,3
+"ID_209670","CA","commercial","San Luis Obispo",2019,5,"Gray Whale",5,"alive","gillnet",0,0
+"ID_156313","CA","commercial","Santa Barbara",2019,5,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_268687","WA","non-commercial",NA,2019,6,"Gray Whale",6,"alive","trap",0,0
+"ID_620466","OR","commercial","Curry",2019,6,"Gray Whale",10,"dead","slack _lines",1,3
+"ID_192425","WA","commercial","Clallam",2019,6,"Humpback Whale",4,"alive","gillnet",0,0
+"ID_845634","CA","commercial","Marin",2019,7,"Humpback Whale",6,"alive","slack _lines",0,0
+"ID_302351","CA","commercial","Monterey",2019,8,"Humpback Whale",3,"alive","slack _lines",0,0
+"ID_444553","CA","commercial","San Mateo",2019,8,"Minke Whale",4,"alive","gillnet",0,0
+"ID_175239","CA","commercial","Monterey",2019,8,"Humpback Whale",5,"alive","gillnet",0,0
+"ID_161900","CA","commercial","Santa Barbara",2019,8,"Humpback Whale",2,"alive","slack _lines",0,0
+"ID_539498","WA","commercial","Clallam",2019,8,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_755948","CA","commercial","Monterey",2019,8,"Humpback Whale",6,"alive","gillnet",0,0
+"ID_192302","CA","commercial","Monterey",2019,8,"Humpback Whale",7,"alive","gillnet",0,0
+"ID_397357","OR","commercial","Lincoln",2019,9,"Gray Whale",4,"alive","gillnet",0,0
+"ID_368543","OR","commercial","Lincoln",2019,9,"Gray Whale",7,"alive","gillnet",0,0
+"ID_702800","CA","commercial","Orange",2019,10,"Humpback Whale",3,"alive","gillnet",0,0
+"ID_821617","CA","commercial","Humboldt",2019,10,"Humpback Whale",2,"alive","slack _lines",0,0
+"ID_814357","CA","commercial","San Diego",2019,11,"Humpback Whale",7,"alive","trap",0,0
+"ID_162385","CA","commercial","Santa Cruz",2019,12,"Humpback Whale",9,"alive","gillnet",1,3

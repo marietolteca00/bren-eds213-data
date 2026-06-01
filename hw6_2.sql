@@ -10,7 +10,8 @@ WHERE LOWER(s.Site_name) = 'nome'
 GROUP BY p.Abbreviation, p.Name
 HAVING COUNT(bn.Nest_ID) = 36;
 ```
-In this query- 
+In this query- The output only returns the name of the observer, the number of floated nest are not shown. It is also using 
+the COUNT(Column) when it is supposed to be COUNT(*). this is grouping by abbreviation and name which is good and will group by unique values
 
 ---
 FROM ChatGPT
@@ -25,6 +26,7 @@ WHERE bn.Site = 'nome'
 GROUP BY p.Abbreviation, p.Name
 HAVING COUNT(*) = 36;
 ```
+From ChatGPT, it produced the same output as Gemini, however ChatGPT used COUNT(*), this is grouping by abbreviation and name which is good and will group by unique values
 
 FROM Claude
 ```
@@ -39,4 +41,5 @@ GROUP BY p.Abbreviation, p.Name
 HAVING COUNT(*) = 36;
 ```
 
-
+From Claude it also used COUNT(*), and this is also grouping by abbreviation and name which is good and will group by unique values. This produced
+the output that was posted on the assignment.
