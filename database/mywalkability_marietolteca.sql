@@ -47,6 +47,7 @@ FROM Walkind_ca
 -- Insert Coords
 WHERE ST_Within(ST_Point(-119.1771, 34.1975), geom_wgs84);
 -- Result : NatWalkInd = 10.3 
+-- Yes my NatWalkInd
 
 -- Average Walkability Index at Oxnard Census Tract Level
 -- Adding round to control sigfigs
